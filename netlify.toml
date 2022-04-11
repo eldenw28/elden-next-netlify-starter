@@ -13,7 +13,7 @@
   force = true
 
 ## Domain redirect for https
-[[redirects]]
+## [[redirects]]
   from = "https://elden-hexo-starter.netlify.app"
   to = "https://www.elden-williams.com"
   status = 301
