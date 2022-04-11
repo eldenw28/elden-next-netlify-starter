@@ -4,3 +4,17 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+## Domain redirect for http
+[[redirects]]
+  from = "http://elden-hexo-starter.netlify.app"
+  to = "https://www.elden-williams.com"
+  status = 200
+  force = true
+
+## Domain redirect for https
+[[redirects]]
+  from = "https://elden-hexo-starter.netlify.app"
+  to = "https://www.elden-williams.com"
+  status = 200
+  force = true
